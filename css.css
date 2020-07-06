@@ -11,6 +11,9 @@
     clear: both;
     display: table;
   }
+  h1,h2{
+    text-align: center;
+  }
   
   [class*="col-"] {
     float: left;
@@ -54,13 +57,12 @@ ul.topnav li.right {float: right;}
     
   }
   
-  .footer {
-    background-color:#f16c90;
-    color: black;
-    text-align: center;
-    font-size: 24px;
-    padding: 15px;
+  .footer ul {
+    margin-top: 70vh;
     
+  }
+  .footer li{
+    display: block;
   }
   
   /* For mobile phones: */
